@@ -1,6 +1,7 @@
 # Python
 
-** Basic Concepts
+## Basic Concepts
+- Exponentiations
 ```
 >>> 2**5
 32
