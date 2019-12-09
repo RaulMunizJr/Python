@@ -58,3 +58,26 @@ False
 >>> not 1 == 1
 False
 ```
+- Loops
+```
+#while
+
+i = 1
+while i <=5:
+   print(i)
+   i = i + 1
+
+print("Finished!")
+```
+### Structures
+- Lists
+```
+#Lists are another type of object in Python. They are used to store an indexed list of items. 
+#A list is created using square brackets with commas separating items.
+#The certain item in the list can be accessed by using its index in square brackets.
+
+words = ["Hello", "world", "!"]
+print(words[0])
+print(words[1])
+print(words[2])
+```
