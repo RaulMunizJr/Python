@@ -80,4 +80,51 @@ words = ["Hello", "world", "!"]
 print(words[0])
 print(words[1])
 print(words[2])
+
+number = 3
+things = ["string", 0, [1, 2, number], 4.56]
+print(things[1])
+print(things[2])
+print(things[2][2])
+>>>
+0
+[1, 2, 3]
+3
+>>>
+
+#Lists can be added and multiplied in the same way as strings.
+
+nums = [1, 2, 3]
+print(nums + [4, 5, 6])
+print(nums * 3)
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>>
+
+#To check if an item is in a list, the in operator can be used. It returns True if the item occurs one or more times in the #list, and False if it doesn't.
+
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
+>>>
+True
+True
+False
+>>>
+
+#To check if an item is not in a list, you can use the not operator in one of the following ways:
+
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(4 not in nums)
+print(not 3 in nums)
+print(3 not in nums)
+>>>
+True
+True
+False
+False
+>>>
 ```
