@@ -37,3 +37,24 @@ spamspamspam
 >>> 4 * '2'
 '2222'
 ```
+- If, Else
+```
+num = 7
+if num == 5:
+   print("Number is 5")
+elif num == 11:
+   print("Number is 11")
+elif num == 7:
+   print("Number is 7")
+else:
+   print("Number isn't 5, 11 or 7")
+```
+- logic
+```
+>>> 1 == 1 and 2 == 2
+True
+>>> 2 < 1 or 3 >  6
+False
+>>> not 1 == 1
+False
+```
